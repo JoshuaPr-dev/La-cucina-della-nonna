@@ -1,0 +1,15 @@
+:root {
+    --couleur--background : #FFFDF7;
+    --couleur--texte--footer:  #2E2E3A;
+    --couleur--boutons--actions: #E63946;
+    --couleur--hover--contrastes: #F4A261;
+    --couleur--détails--fraîcheur: #008C45;
+    --couleur--fond--de--cartes--UI: #FFF0E5;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
