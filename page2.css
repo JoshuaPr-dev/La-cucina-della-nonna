@@ -299,7 +299,14 @@ width: 33%;
         text-align: center;
     }
 
-    
+    .j__section2 .j__div2{
+        padding-top: 0;
+    }
+
+    .j__section2 .j__h2__4{
+        padding-bottom: 1.5rem;
+    }
+
     .j__section3__div1, .j__div2, .j__div3, .j__div4{
         text-align: center;
     }

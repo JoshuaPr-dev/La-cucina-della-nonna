@@ -312,7 +312,6 @@ width: 33%;
 
     .burger {display: none;}
     .mobile__menu{display: none;}
-}
   
     .afooter {
         font-size: 0.9rem;
@@ -553,6 +552,4 @@ width: 33%;
     .reseaux {
         margin-top: 2rem;
     }
-
-
 }
