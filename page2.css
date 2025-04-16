@@ -30,38 +30,38 @@ p{
     padding-left: 0.5rem;
 }
 
-.img1{
+.j__img1{
     padding-top: 1rem;
     width: 100%;
     height: auto;
 }
 
-.img2{
+.j__img2{
     display: none;
 }
 
-.section1 h2{
+.j__section1 h2{
     text-align: center;
 }
 
 /* section1 */
-.section1 .h2__1{
+.j__section1 .j__h2__1{
     padding-top: 0.5rem;
 }
 
-.section1 .h2__2{
+.j__section1 .j__h2__2{
     padding-bottom: 0.5rem;
 }
 
-.section2 .h2__3, .h2__4{
+.j__section2 .j__h2__3, .j__h2__4{
     padding-left: 0.5rem;
 }
 
-.section2 .h2__3{
+.j__section2 .j__h2__3{
     padding-top: 0.7rem;
 }
 
-.section2 .h2__4{
+.j__section2 .j__h2__4{
     padding-bottom: 0.7rem;
 }
 
@@ -69,45 +69,194 @@ p{
     padding: 1rem 0.5rem 0.5rem 0.5rem;
 }
 
-.section2__div1 h4, p{
+.j__section2__div1 h4, p{
     padding-bottom: 0.7rem;
 }
 
-.section3__div1, .div2, .div3, .div4{
+.j__section3__div1, .j__div2, .j__div3, .j__div4{
     padding: 1rem 0.5rem 0.5rem 0.5rem;
 }
 
-.section3__div1 h2, p{
+.j__section3__div1 h2, p{
     padding-bottom: 0.7rem; 
 }
 
-.section3 .h2{
+.j__section3 .j__h2{
     text-align: center;
     padding-bottom: 2rem;
 }
 
-.section3__div5{
-    padding: 1rem 0;
+.j__section3__div5{
+    padding: 1.5rem 0;
     text-align: center;
 }
 
-.section3_div5 p{
+.j__section3_div5 p{
     font-style: italic;
     padding: none;
 }
 
+footer {
+    background-color: var(--couleur--texte--footer);
+}
+
+.h2footer {
+    color: var(--couleur--fond--de--cartes--UI);
+    text-align: center;
+    margin-block: 2%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-block: 4%;
+}
+
+.hrfooter {
+    width: 90%;
+    margin: auto;
+    margin-block: 3%;
+}
+
+.contact input {
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 2rem;
+}
+
+.newsletter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ulfooter {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin-block: 2%;
+    margin-inline: 2%;
+    gap: 5%
+}
+
+.lifooter {
+    padding-inline: 2%;
+}
+
+.copyright {
+    text-align: center;
+    color: var(--couleur--fond--de--cartes--UI);
+    font-size: 0.6rem;
+    padding-block: 3%;
+}
+
+.afooter {
+    text-decoration: none;
+    color: var(--couleur--fond--de--cartes--UI);
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.afooter:hover {
+    text-decoration: underline;
+}
+
+.boutoninscrire {
+    background-color: var(--couleur--boutons--actions);
+    padding-block: 0.7rem;
+    border-radius: 2rem;
+    width: 8rem;
+    color: var(--couleur--fond--de--cartes--UI);
+    position: absolute;
+    right: 0rem;
+}
+
+.boutonenvoyer {
+    background-color: var(--couleur--boutons--actions);
+    color: var(--couleur--fond--de--cartes--UI);
+    width: 12rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.boutonnewsletter {
+    position: relative;
+    margin-block: 5%;
+    width: 20rem;
+}
+
+.inputfooter1 {
+    width: 12rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.inputfooter2 {
+    width: 12rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.inputfooter3 {
+    width: 20rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.inputfooter4 {
+    padding-block: 0.7rem;
+    border-radius: 2rem;
+    text-align: center;
+    position: relative;
+    right: 8%;
+    width: 16rem;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+
+.logoinsta {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.logoyt {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.logofacebook {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+.areseaux{
+width: 33%;
+}
+
 @media screen and (min-width: 601px){
-    .section1{
+    .j__section1{
         position: relative;
     }
 
-    .img1{
+    .j__img1{
         filter: blur(6px);
-        width: 102%;
+        width: 100%;
     }
 
-    .blur{
-        padding-left: 1rem;
+    .j__blur{
+        /* padding-left: 1.5rem; */
         color: white;
         position: absolute;
         top: 32%;
@@ -116,39 +265,149 @@ p{
         height: 25%;
         background-color: rgba(0, 0, 0, 0.6);
         display: flex;
+        gap: 0.5rem;
         flex-direction: column;
         align-items: start;
+        justify-content: center;
     }
 
-    .section1 .h2__1, .h2__2{
+    .j__section1 .j__h2__1, .j__h2__2{
         font-size: 1.3rem;
+        padding: 0;
+        margin-left: 1.5rem;
     }
 
-    .section1 .h2__1{
-        padding-top: 3%;
-    }
-
-    .img2{
+    .j__img2{
         position: absolute;
         top: 24%;
-        left: 53%;
+        left: 51%;
         display: block;
         width: 45%;
         height: auto;
     }
 
-    .hr1{
+    .j__hr1{
         display: none;
     }
 
-    .section2__div0{
+    .j__section2__div0{
         display: flex;
+        justify-content: space-between;
+    }
+
+    .j__section2{
+        text-align: center;
+    }
+
+    
+    .j__section3__div1, .j__div2, .j__div3, .j__div4{
+        text-align: center;
+    }
+
+    .j__section3__div1 .j__h2__1{
+        display: none;
+    }
+
+    .afooter {
+        font-size: 0.9rem;
+    }
+
+    .ulfooter {
+        gap: 1%
+    }
+
+    .inputfooter1 {
+        width: 16rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .inputfooter2 {
+        width: 16rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .inputfooter3 {
+        width: 25rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .boutonenvoyer {
+        width: 16rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .inputfooter4 {
+        width: 20rem;
+        padding-block: 0.8rem;
+        position: relative;
+        right: 5rem;
+        font-size: 1.2rem;
+
+    }
+
+    .boutoninscrire {
+        width: 14rem;
+        padding-block: 0.8rem;
+        position: absolute;
+        top: 0rem;
+        right: -5rem;
+        font-size: 1.2rem;
+    }
+
+    .boutonnewsletter {
+        position: relative;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
     }
 }
 
-@media screen and (min-width: 1023px){
-
+/* Version Tablette */
+@media screen and (min-width: 699px){
+    .j__section1 .j__h2__1, .j__h2__2{
+        font-size: 1.5rem;
+    }
 }
+
+/* Ajustement de la taille "Recette Melanzane alla Parmigiana" */
+@media screen and (min-width: 799px){
+    .j__section1 .j__h2__1, .j__h2__2{
+        font-size: 1.7rem;
+    }
+}
+
+/* Ajustement de la taille "Recette Melanzane alla Parmigiana" */
+@media screen and (min-width: 899px){
+    .j__section1 .j__h2__1, .j__h2__2{
+        font-size: 2rem;
+    }
+}
+
+/* Version PC */
+@media screen and (min-width: 1024px){
+    .j__section1 .j__h2__1, .j__h2__2{
+        font-size: 2.3rem;
+    }
+
+    h2{
+        font-size: 1.7rem ;
+    }
+
+    h4{
+        font-size: 1.25rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+    }
+}
+
+
 
 
 
