@@ -96,6 +96,155 @@ p{
     padding: none;
 }
 
+footer {
+    background-color: var(--couleur--texte--footer);
+}
+
+.h2footer {
+    color: var(--couleur--fond--de--cartes--UI);
+    text-align: center;
+    margin-block: 2%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-block: 4%;
+}
+
+.hrfooter {
+    width: 90%;
+    margin: auto;
+    margin-block: 3%;
+}
+
+.contact input {
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 2rem;
+}
+
+.newsletter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ulfooter {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    margin-block: 2%;
+    margin-inline: 2%;
+    gap: 5%
+}
+
+.lifooter {
+    padding-inline: 2%;
+}
+
+.copyright {
+    text-align: center;
+    color: var(--couleur--fond--de--cartes--UI);
+    font-size: 0.6rem;
+    padding-block: 3%;
+}
+
+.afooter {
+    text-decoration: none;
+    color: var(--couleur--fond--de--cartes--UI);
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.afooter:hover {
+    text-decoration: underline;
+}
+
+.boutoninscrire {
+    background-color: var(--couleur--boutons--actions);
+    padding-block: 0.7rem;
+    border-radius: 2rem;
+    width: 8rem;
+    color: var(--couleur--fond--de--cartes--UI);
+    position: absolute;
+    right: 0rem;
+}
+
+.boutonenvoyer {
+    background-color: var(--couleur--boutons--actions);
+    color: var(--couleur--fond--de--cartes--UI);
+    width: 12rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.boutonnewsletter {
+    position: relative;
+    margin-block: 5%;
+    width: 20rem;
+}
+
+.inputfooter1 {
+    width: 12rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.inputfooter2 {
+    width: 12rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.inputfooter3 {
+    width: 20rem;
+    margin: auto;
+    padding-block: 0.7rem;
+}
+
+.inputfooter4 {
+    padding-block: 0.7rem;
+    border-radius: 2rem;
+    text-align: center;
+    position: relative;
+    right: 8%;
+    width: 16rem;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+
+.logoinsta {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.logoyt {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.logofacebook {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+.areseaux{
+width: 33%;
+}
+
 /* Version Tablette */
 @media screen and (min-width: 601px){
     .j__section1{
@@ -158,6 +307,64 @@ p{
     .j__section3__div1 .j__h2__1{
         display: none;
     }
+
+    .afooter {
+        font-size: 0.9rem;
+    }
+
+    .ulfooter {
+        gap: 1%
+    }
+
+    .inputfooter1 {
+        width: 16rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .inputfooter2 {
+        width: 16rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .inputfooter3 {
+        width: 25rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .boutonenvoyer {
+        width: 16rem;
+        padding-block: 0.8rem;
+        font-size: 1.2rem;
+    }
+
+    .inputfooter4 {
+        width: 20rem;
+        padding-block: 0.8rem;
+        position: relative;
+        right: 5rem;
+        font-size: 1.2rem;
+
+    }
+
+    .boutoninscrire {
+        width: 14rem;
+        padding-block: 0.8rem;
+        position: absolute;
+        top: 0rem;
+        right: -5rem;
+        font-size: 1.2rem;
+    }
+
+    .boutonnewsletter {
+        position: relative;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
+    }
 }
 
 /* Version Tablette */
@@ -197,6 +404,105 @@ p{
 
     p{
         font-size: 1.1rem;
+    }
+
+    .contactandnewsletter {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .newsletter {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-top: 3rem;
+        border-left: solid white;
+        width: 50%;
+    }
+
+    .hrfooter {
+        display: none;
+    }
+
+    .inputfooter4 {
+        padding-block: 0.7rem;
+        border-radius: 2rem;
+        text-align: center;
+        position: relative;
+        right: 8%;
+        width: 22rem;
+    }
+
+    .boutoninscrire {
+        background-color: var(--couleur--boutons--actions);
+        padding-block: 0.7rem;
+        border-radius: 2rem;
+        width: 8rem;
+        color: var(--couleur--fond--de--cartes--UI);
+        position: absolute;
+        right: -3.7rem;
+    }
+
+    .boutonnewsletter {
+        position: relative;
+        margin-block: 5%;
+        width: 20rem;
+    }
+
+    .contact {
+        width: 50%;
+    }
+
+    .h2footer {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .inputfooter1 {
+        width: 20rem;
+        padding-block: 1.2rem;
+    }
+
+    .inputfooter2 {
+        width: 20rem;
+        padding-block: 1.2rem;
+    }
+
+    .inputfooter3 {
+        padding-block: 2rem;
+        width: 27rem;
+    }
+
+    .boutonenvoyer {
+        width: 20rem;
+        padding-block: 1.2rem;
+    }
+
+    .afooter {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+
+    .logoinsta {
+        width: 70%;
+        height: 70%;
+    }
+
+    .logoyt {
+        width: 70%;
+        height: 70%;
+    }
+
+    .logofacebook {
+        width: 70%;
+        height: 70%;
+    }
+
+    .reseaux {
+        margin-top: 2rem;
     }
 }
 
