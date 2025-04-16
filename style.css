@@ -35,7 +35,7 @@ footer {
     padding-block: 4%;
 }
 
-hr {
+.hrfooter {
     width: 90%;
     margin: auto;
     margin-block: 3%;
@@ -137,6 +137,36 @@ hr {
     width: 16rem;
 }
 
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 1rem
+}
+
+.logoinsta {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.logoyt {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.logofacebook {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    display: inline-block;
+}
+.areseaux{
+width: 33%;
+}
+
 @media (min-width: 601px) {
     .afooter {
         font-size: 0.9rem;
@@ -206,12 +236,13 @@ hr {
     .newsletter {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
+        padding-top: 3rem;
         border-left: solid white;
         width: 50%;
     }
 
-    hr {
+    .hrfooter {
         display: none;
     }
 
@@ -221,7 +252,7 @@ hr {
         text-align: center;
         position: relative;
         right: 8%;
-        width: 16rem;
+        width: 22rem;
     }
 
     .boutoninscrire {
@@ -231,7 +262,7 @@ hr {
         width: 8rem;
         color: var(--couleur--fond--de--cartes--UI);
         position: absolute;
-        right: 0rem;
+        right: -3.7rem;
     }
 
     .boutonnewsletter {
@@ -275,6 +306,25 @@ hr {
 
     .copyright {
         font-size: 1rem;
+    }
+
+    .logoinsta {
+        width: 70%;
+        height: 70%;
+    }
+
+    .logoyt {
+        width: 70%;
+        height: 70%;
+    }
+
+    .logofacebook {
+        width: 70%;
+        height: 70%;
+    }
+
+    .reseaux {
+        margin-top: 2rem;
     }
 
 }
