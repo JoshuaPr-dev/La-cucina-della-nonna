@@ -7,6 +7,53 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>  
-    
+    <header id="Accueil">
+        <input type="checkbox" id="menu__toggle" hidden>
+        <label for="menu__toggle" class="burger">
+            <svg width="60" height="20" viewBox="0 0 60 20" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10" cy="10" r="4"/>
+                <circle cx="30" cy="10" r="4"/>
+                <circle cx="50" cy="10" r="4"/>
+            </svg>
+        </label>
+
+        <nav class="mobile__menu">
+            <ul>
+              <li><a href="#Accueil">Accueil</a></li>
+              <li><a href="#">Connexion</a></li>
+              <li><a href="#">Inscription</a></li>
+              <li><a href="#">Top Recettes</a></li>
+              <li><a href="#">Toutes les Recettes</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+        <div class="relative">
+            <img class="background__drapeau" src="./assets/photo/background__drapeau.jpg" alt="Fond drapeau italien">
+            <a href="#Accueil"><img class="logo" src="./assets/photo/logo.png" alt="Logo de La Cucina Della Nonna"></a>
+        </div> 
+
+
+        <div class="recherche">
+            <form action="/rechercher" method="get">
+                <button type="submit">Rechercher</button>
+                <input type="search" id="site-search" name="q" class="search__field" placeholder="Tapez votre recherche..." />
+            </form>
+            <p>-“La vraie cuisine italienne, celle qui mijote depuis des générations dans les casseroles de Nonna.”</p>
+        </div>
+    </header>
+
+    <main>
+        <nav class="navbar__sticky">
+            <ul class="navbar">
+                <li><a class="navigation" href="#">Recette de la semaine</a></li>
+                <li><a class="navigation" href="#">Top recettes</a></li>
+                <li><a class="navigation" href="#">Toutes nos recettes traditionnelles</a></li>
+                <li><a class="navigation" href="#">Connexion</a></li>
+                <li><a class="navigation" href="#">Inscription</a></li>
+            </ul>
+        </nav>
+    </main>
+
 </body>
 </html>
