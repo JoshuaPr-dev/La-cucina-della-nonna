@@ -6,8 +6,82 @@
     <title>Document</title>
     <link rel="stylesheet" href="./page2.css" />
   </head>
+
   <body>
+    <header id="Accueil">
+
+      <input type="checkbox" id="menu__toggle" hidden />
+      <label for="menu__toggle" class="burger">
+        <svg
+          width="60"
+          height="20"
+          viewBox="0 0 60 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="10" cy="10" r="4" />
+          <circle cx="30" cy="10" r="4" />
+          <circle cx="50" cy="10" r="4" />
+        </svg>
+      </label>
+
+      <nav class="mobile__menu">
+        <ul>
+          <li><a href="#Accueil">Accueil</a></li>
+          <li><a href="#">Connexion</a></li>
+          <li><a href="#">Inscription</a></li>
+          <li><a href="#">Top Recettes</a></li>
+          <li><a href="#">Toutes les Recettes</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="relative">
+        <img
+          class="background__drapeau"
+          src="./assets/photo/background__drapeau.jpg"
+          alt="Fond drapeau italien"
+        />
+        <a href="#Accueil"
+          ><img
+            class="logo"
+            src="./assets/photo/logo.png"
+            alt="Logo de La Cucina Della Nonna"
+        /></a>
+      </div>
+
+      <div class="recherche">
+        <form action="/rechercher" method="get">
+          <button type="submit">Rechercher</button>
+          <input
+            type="search"
+            id="site-search"
+            name="q"
+            class="search__field"
+            placeholder="Tapez votre recherche..."
+          />
+        </form>
+        <p>
+          -“La vraie cuisine italienne, celle qui mijote depuis des générations
+          dans les casseroles de Nonna.”
+        </p>
+      </div>
+    </header>
+
     <main>
+      <nav class="navbar__sticky">
+        <ul class="navbar">
+          <li><a class="navigation" href="#">Recette de la semaine</a></li>
+          <li><a class="navigation" href="#">Top recettes</a></li>
+          <li>
+            <a class="navigation" href="#"
+              >Toutes nos recettes traditionnelles</a
+            >
+          </li>
+          <li><a class="navigation" href="#">Connexion</a></li>
+          <li><a class="navigation" href="#">Inscription</a></li>
+        </ul>
+      </nav>
+
       <section class="j__section1">
         <img
           class="j__img1"
@@ -125,5 +199,106 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="contactandnewsletter">
+        <div class="contact">
+          <h2 class="h2footer">Contact</h2>
+          <input
+            class="inputfooter1"
+            type="text"
+            placeholder="Nom et prénom"
+            name="nameandnickname"
+            id="name"
+            required
+          />
+          <input
+            class="inputfooter2"
+            type="text"
+            placeholder="Email"
+            name="Email"
+            id="Email"
+            required
+          />
+          <input
+            class="inputfooter3"
+            type="text"
+            placeholder="Tapez votre message ici..."
+            name="message"
+            id="message"
+            required
+          />
+          <input class="boutonenvoyer" type="button" value="Envoyez" />
+        </div>
+        <hr class="hrfooter" />
+        <div class="newsletter">
+          <h2 class="h2footer">Inscrivez-vous à notre Newsletter.</h2>
+          <div class="boutonnewsletter">
+            <input
+              class="inputfooter4"
+              type="text"
+              placeholder="Votre e-mail"
+              name="email"
+              id="email"
+              required
+            />
+            <input class="boutoninscrire" type="button" value="S'inscrire" />
+          </div>
+          <div class="reseaux">
+            <a
+              class="areseaux"
+              href="https://www.facebook.com/?locale=fr_FR"
+              target="_blank"
+            >
+              <img
+                class="logofacebook"
+                src="./assets/photo/icone facebook.png"
+                alt="logofacebook"
+              />
+            </a>
+            <a
+              class="areseaux"
+              href="https://www.instagram.com/la__cucina__della__nonna/?hl=fr"
+              target="_blank"
+            >
+              <img
+                class="logoinsta"
+                src="./assets/photo/icone instagram.png"
+                alt="logoinsta"
+              />
+            </a>
+            <a class="areseaux" href="https://www.youtube.com/" target="_blank">
+              <img
+                class="logoyt"
+                src="./assets/photo/icone yt.png"
+                alt="logoyt"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <ul class="ulfooter">
+        <li class="lifooter">
+          <a class="afooter" href="#adresse">Adresse</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#mentionlegale">Mention légale</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#conditiongenerales">Condition générales</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#Politiquedeconfidentialite"
+            >Politique de cinfidentialité</a
+          >
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#Modifiermesparamètresdeconfidentialite"
+            >Modifier les paramètres de confidentialité</a
+          >
+        </li>
+      </ul>
+      <p class="copyright">&copy; 2025 La cucina della nonna</p>
+    </footer>
   </body>
 </html>
