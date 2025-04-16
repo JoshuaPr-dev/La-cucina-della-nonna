@@ -131,6 +131,10 @@ header{
     border: none;
 }
 
+.recherche__spacer {
+    height: 27vh; /* doit être exactement égal à .recherche */
+}
+
 h2 {
     text-align: center;
 }
@@ -404,6 +408,9 @@ width: 33%;
         left: 55%;
         transform: translateX(-50%);
     }
+    .recherche__spacer {
+        height: 30vh; /* doit être exactement égal à .recherche */
+    }
 
     .burger {display: none;}
     .mobile__menu{display: none;}
@@ -552,8 +559,6 @@ width: 33%;
         min-width: 250px;
     }
   
-  
-    
     .recherche button {
         background-color: var(--couleur--boutons--actions);
         padding: 1rem;
@@ -574,7 +579,9 @@ width: 33%;
         font-style: italic;
         font-size: x-large;
     }
-  
+    .recherche__spacer {
+        height: 50vh; /* doit être exactement égal à .recherche */
+    }
   
 .jp_container {
     display: grid; 
