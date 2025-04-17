@@ -2,6 +2,8 @@
 🧾 Présentation du projet
 L'objectif principal était de pratiquer la structuration d’un projet web, la collaboration en groupe, l’intégration responsive ainsi que l’implémentation d’interactions utilisateur simples.
 
+
+
 Nous avons créé un Google Doc pour rassembler toutes nos idées avant de passer sur Figma.
 
 Nous avons ensuite commencé à créer la maquette du site sur Figma. Mehdi s’est occupé du header, Valentin et Jean-Paul se sont occupés du main et du footer, et Joshua a réalisé la page des recettes (page 2).
@@ -55,3 +57,4 @@ Ajouter des filtres (temps de cuisson, type de plat, régime alimentaire).
 Intégrer une section de commentaires utilisateurs pour partager des astuces ou variantes de recettes.
 
 Si tu veux, je peux aussi te le mettre en page avec un petit style sympa pour une présentation ou un portfolio. Tu veux que je te fasse ça ?
+

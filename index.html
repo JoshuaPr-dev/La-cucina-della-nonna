@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La-cucina-della-nonna</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <header id="Accueil">
-        <input type="checkbox" id="menu__toggle" hidden>
-        <label for="menu__toggle" class="burger">
-            <svg width="60" height="20" viewBox="0 0 60 20" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10" cy="10" r="4" />
-                <circle cx="30" cy="10" r="4" />
-                <circle cx="50" cy="10" r="4" />
-            </svg>
-        </label>
+      <input type="checkbox" id="menu__toggle" hidden />
+      <label for="menu__toggle" class="burger">
+        <svg
+          width="60"
+          height="20"
+          viewBox="0 0 60 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="10" cy="10" r="4" />
+          <circle cx="30" cy="10" r="4" />
+          <circle cx="50" cy="10" r="4" />
+        </svg>
+      </label>
 
-        <nav class="mobile__menu">
-            <ul>
-                <li><a class="navigation" href="./page2.html">Recette melanzane</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Connexion</a></li>
-                <li><a href="#">Inscription</a></li>
-            </ul>
-        </nav>
+      <nav class="mobile__menu">
+        <ul>
+          <li>
+            <a class="navigation" href="./page2.html">Recette melanzane</a>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Connexion</a></li>
+          <li><a href="#">Inscription</a></li>
+        </ul>
+      </nav>
 
-        <div class="relative">
-            <img class="background__drapeau" src="./assets/photo/background__drapeau.jpg" alt="Fond drapeau italien">
-            <a href="#Accueil"><img class="logo" src="./assets/photo/logo.png" alt="Logo de La Cucina Della Nonna"></a>
-        </div>
+      <div class="relative">
+        <img
+          class="background__drapeau"
+          src="./assets/photo/background__drapeau.jpg"
+          alt="Fond drapeau italien"
+        />
+        <a href="#Accueil"
+          ><img
+            class="logo"
+            src="./assets/photo/logo.png"
+            alt="Logo de La Cucina Della Nonna"
+        /></a>
+      </div>
 
-
-        <div class="recherche">
-            <form action="/rechercher" method="get">
-                <button type="submit">Rechercher</button>
-                <input type="search" id="site-search" name="q" class="search__field"
-                    placeholder="Tapez votre recherche..." />
-            </form>
-            <p>-“La vraie cuisine italienne, celle qui mijote depuis des générations dans les casseroles de Nonna.”</p>
-        </div>
-        <div class="recherche__spacer"></div>
-
+      <div class="recherche">
+        <form action="/rechercher" method="get">
+          <button type="submit">Rechercher</button>
+          <input
+            type="search"
+            id="site-search"
+            name="q"
+            class="search__field"
+            placeholder="Tapez votre recherche..."
+          />
+        </form>
+        <p>
+          -“La vraie cuisine italienne, celle qui mijote depuis des générations
+          dans les casseroles de Nonna.”
+        </p>
+      </div>
+      <div class="recherche__spacer"></div>
     </header>
 
     <main>
@@ -137,73 +158,172 @@
                     douceur aérienne à chaque bouchée, impossible d’y résister</p>
             </div>
         </section>
+        <div class="jp_color1">
+          <h3>Osso buco alla milanese</h3>
+          <img
+            class="jp_img3"
+            src="./assets/photo/osso__buco__alla__milanese.png"
+            alt="osso"
+          />
+          <p>
+            Jarret de veau mijoté longuement avec vin blanc, bouillon, légumes,
+            souvent accompagné de gremolata (zeste de citron, ail et persil).
+          </p>
+        </div>
 
-        <section class="jp_container jp_container2">
+        <div class="jp_color1">
+          <h3>Scaloppine al Limone</h3>
+          <img
+            class="jp_img2 jp_img3"
+            src="./assets/photo/scaloppine__al__limone.jpg"
+            alt="scaloppine"
+          />
+          <p>
+            De fines tranches de veau nappées d’une sauce citronnée légère et
+            parfumée. Un plat rapide et raffiné, souvent accompagné de légumes
+            ou de purée.
+          </p>
+        </div>
 
-            <div>
-                <hr>
-                <h3 class="jp_top" id="présentation">Présentation</h3>
-                <p>La cucina della nonna est née d'un souvenir : celui d’une cuisine italienne où régnait l’odeur du basilic, du ragù mijoté et des gâteaux sortis du four. Chaque dimanche, Nonna Maria régalait toute la famille avec ses plats simples, faits avec amour et transmis par le cœur, jamais par écrit.
-                <p>Pour ne pas laisser ces trésors se perdre, ses petits-enfants ont créé ce site, une sorte de carnet vivant, pour partager avec le monde ces recettes d’antan, pleines de chaleur, d’histoire et de tradition. Ici, pas de cuisine compliquée : seulement de vrais plats italiens, comme à la maison, comme chez Nonna.
-                Parce qu’au fond, cuisiner, c’est transmettre — et comme disait toujours Nonna : “L’amour, ça se met dans la sauce.”</p>   
-            </div>
-        </section>
+        <div class="jp_color1">
+          <h3>Tiramisù Classico</h3>
+          <img
+            class="jp_img3"
+            src="./assets/photo/tiramisu__classico.jpg"
+            alt="tiramisu"
+          />
+          <p>
+            Le dessert italien incontournable : biscuits imbibés de café, crème
+            mascarpone, cacao amer… une douceur aérienne à chaque bouchée,
+            impossible d’y résister
+          </p>
+        </div>
+      </section>
+
+      <section class="jp_container jp_container2">
+        <div>
+          <hr />
+          <h3 class="jp_top" id="présentation">Présentation</h3>
+          <p>
+            La cucina della nonna est née d'un souvenir : celui d’une cuisine
+            italienne où régnait l’odeur du basilic, du ragù mijoté et des
+            gâteaux sortis du four. Chaque dimanche, Nonna Maria régalait toute
+            la famille avec ses plats simples, faits avec amour et transmis par
+            le cœur, jamais par écrit.
+          </p>
+          <p>
+            Pour ne pas laisser ces trésors se perdre, ses petits-enfants ont
+            créé ce site, une sorte de carnet vivant, pour partager avec le
+            monde ces recettes d’antan, pleines de chaleur, d’histoire et de
+            tradition. Ici, pas de cuisine compliquée : seulement de vrais plats
+            italiens, comme à la maison, comme chez Nonna. Parce qu’au fond,
+            cuisiner, c’est transmettre — et comme disait toujours Nonna :
+            “L’amour, ça se met dans la sauce.”
+          </p>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="contactandnewsletter">
-            <div class="contact" id="contact">
-                <h2 class="h2footer">Contact</h2>
-                <input class="inputfooter1" type="text" placeholder="Nom et prénom" name="nameandnickname" id="name"
-                    required />
-                <input class="inputfooter2" type="text" placeholder="Email" name="Email" id="Email" required />
-                <input class="inputfooter3" type="text" placeholder="Tapez votre message ici..." name="message"
-                    id="message" required />
-                <input class="boutonenvoyer" type="button" value="Envoyez">
-            </div>
-            <hr class="hrfooter">
-            <div class="newsletter">
-                <h2 class="h2footer">Inscrivez-vous à notre Newsletter. </h2>
-                <div class="boutonnewsletter">
-                    <input class="inputfooter4" type="text" placeholder="Votre e-mail" name="email" id="email"
-                        required />
-                    <input class="boutoninscrire" type="button" value="S'inscrire">
-                </div>
-                <div class="reseaux">
-                    <a class="areseaux" href="https://www.facebook.com/?locale=fr_FR" target="_blank">
-                        <img class="logofacebook" src="./assets/photo/icone facebook.png" alt="logofacebook" />
-                    </a>
-                    <a class="areseaux" href="https://www.instagram.com/la__cucina__della__nonna/?hl=fr"
-                        target="_blank">
-                        <img class="logoinsta" src="./assets/photo/icone instagram.png" alt="logoinsta" />
-                    </a>
-                    <a class="areseaux" href="https://www.youtube.com/" target="_blank">
-                        <img class="logoyt" src="./assets/photo/icone yt.png" alt="logoyt" />
-                    </a>
-                </div>
-            </div>
+      <div class="contactandnewsletter">
+        <div class="contact" id="contact">
+          <h2 class="h2footer">Contact</h2>
+          <form class="form" action="#" method="POST"></form>
+            <input
+              class="inputfooter1"
+              type="text"
+              placeholder="Nom et prénom"
+              name="nameandnickname"
+              id="name"
+              required
+            />
+            <input
+              class="inputfooter2"
+              type="text"
+              placeholder="Email"
+              name="Email"
+              id="Email"
+              required
+            />
+            <textarea
+              class="inputfooter3"
+              placeholder="Tapez votre message ici..."
+              name="message"
+              id="message"
+              required
+            ></textarea>
+            <input class="boutonenvoyer" type="submit" value="Envoyer" />
+          </form>
         </div>
-        <ul class="ulfooter">
-            <li class="lifooter">
-                <a class="afooter" href="#adresse">Adresse</a>
-            </li>
-            <li class="lifooter">
-                <a class="afooter" href="#mentionlegale">Mention légale</a>
-            </li>
-            <li class="lifooter">
-                <a class="afooter" href="#conditiongenerales">Conditions générales</a>
-            </li>
-            <li class="lifooter">
-                <a class="afooter" href="#Politiquedeconfidentialite">Politique de confidentialité</a>
-            </li>
-            <li class="lifooter">
-                <a class="afooter" href="#Modifiermesparamètresdeconfidentialite">Modifier les paramètres de
-                    confidentialité</a>
-            </li>
-        </ul>
-        <p class="copyright">&copy; 2025 La cucina della nonna</p>
+        <hr class="hrfooter" />
+        <div class="newsletter">
+          <h2 class="h2footer">Inscrivez-vous à notre Newsletter.</h2>
+          <div class="boutonnewsletter">
+            <input
+              class="inputfooter4"
+              type="text"
+              placeholder="Votre e-mail"
+              name="email"
+              id="email"
+              required
+            />
+            <input class="boutoninscrire" type="button" value="S'inscrire" />
+          </div>
+          <div id="contact" class="reseaux">
+            <a
+              class="areseaux"
+              href="https://www.facebook.com/?locale=fr_FR"
+              target="_blank"
+            >
+              <img
+                class="logofacebook"
+                src="./assets/photo/icone facebook.png"
+                alt="logofacebook"
+              />
+            </a>
+            <a
+              class="areseaux"
+              href="https://www.instagram.com/la__cucina__della__nonna/?hl=fr"
+              target="_blank"
+            >
+              <img
+                class="logoinsta"
+                src="./assets/photo/icone instagram.png"
+                alt="logoinsta"
+              />
+            </a>
+            <a class="areseaux" href="https://www.youtube.com/" target="_blank">
+              <img
+                class="logoyt"
+                src="./assets/photo/icone yt.png"
+                alt="logoyt"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <ul class="ulfooter">
+        <li class="lifooter">
+          <a class="afooter" href="#adresse">Adresse</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#mentionlegale">Mentions légales</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#conditiongenerales">Conditions générales</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#Politiquedeconfidentialite"
+            >Politique de confidentialité</a
+          >
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#Modifiermesparamètresdeconfidentialite"
+            >Modifier les paramètres de confidentialité</a
+          >
+        </li>
+      </ul>
+      <p class="copyright">&copy; 2025 La cucina della nonna</p>
     </footer>
-
-</body>
-
+  </body>
 </html>
