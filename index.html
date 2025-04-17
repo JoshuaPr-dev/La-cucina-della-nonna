@@ -7,38 +7,38 @@
     <title>La-cucina-della-nonna</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>  
+
+<body>
     <header id="Accueil">
         <input type="checkbox" id="menu__toggle" hidden>
         <label for="menu__toggle" class="burger">
             <svg width="60" height="20" viewBox="0 0 60 20" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10" cy="10" r="4"/>
-                <circle cx="30" cy="10" r="4"/>
-                <circle cx="50" cy="10" r="4"/>
+                <circle cx="10" cy="10" r="4" />
+                <circle cx="30" cy="10" r="4" />
+                <circle cx="50" cy="10" r="4" />
             </svg>
         </label>
 
         <nav class="mobile__menu">
             <ul>
-              <li><a href="#Recettedelasemaine">Recette de la semaine</a></li>
-              <li><a href="#toprecettes">Top Recettes</a></li>
-              <li><a href="#présentation">Présentation</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Connexion</a></li>
-              <li><a href="#">Inscription</a></li>
+                <li><a class="navigation" href="./page2.html">Recette melanzane</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Connexion</a></li>
+                <li><a href="#">Inscription</a></li>
             </ul>
-          </nav>
+        </nav>
 
         <div class="relative">
             <img class="background__drapeau" src="./assets/photo/background__drapeau.jpg" alt="Fond drapeau italien">
             <a href="#Accueil"><img class="logo" src="./assets/photo/logo.png" alt="Logo de La Cucina Della Nonna"></a>
-        </div> 
+        </div>
 
 
         <div class="recherche">
             <form action="/rechercher" method="get">
                 <button type="submit">Rechercher</button>
-                <input type="search" id="site-search" name="q" class="search__field" placeholder="Tapez votre recherche..." />
+                <input type="search" id="site-search" name="q" class="search__field"
+                    placeholder="Tapez votre recherche..." />
             </form>
             <p>-“La vraie cuisine italienne, celle qui mijote depuis des générations dans les casseroles de Nonna.”</p>
         </div>
@@ -57,90 +57,99 @@
                 <li><a class="navigation" href="#">Inscription</a></li>
             </ul>
         </nav>
-      <section>
-            <div class="jp_color ">
-                <h2 id="recettedelasemaine">LA RECETTE DE LA SEMAINE</h2>
-                <div class="jp_cardeTopRecette">
-                    <h3 class="jp_row1">Melanzane alla Parmigiana (Gratin d’aubergines à l’italienne)</h3>
+        <section>
+
+            <a class="jp_page" href ="./page2.html">
+                <div class="jp_color">
+                    <h2 id="recettedelasemaine">LA RECETTE DE LA SEMAINE</h2>
+                    <div class="jp_cardeTopRecette">
+                        <h3 class="jp_row1">Melanzane alla Parmigiana (Gratin d’aubergines à l’italienne)</h3>
                         <div class="jp_aligne jp_row2 jp_img3">
-                            <a href="./page2.html"><img class="jp_img jp_img1" src="./assets/photo/top__recette.png" alt="melanzane"></a>
+                            <img class="jp_img jp_img1" src="./assets/photo/top__recette.png" alt="melanzane">
                         </div>
-                
                         <div class="jp_aligne2 jp_topRecette jp_color jp_row3">
                             <p>Un grand classique della nonna à base d’aubergines fondantes, de sauce tomate parfumée et de mozzarella gratinée. Un plat généreux et réconfortant, parfait pour un repas familial.</p>
                         </div>
-                </div>
-            </div>
+                    </div>
+                </div></a>
+
             <hr>
         </section>
 
         <section>
             <h2 class="jp_top" id="toprecettes">TOP RECETTES</h2>
         </section>
-        
+
 
         <section class="jp_container">
-            
+
             <div class="jp_color1">
                 <h3>Lasagne alla Bolognese</h3>
                 <img class="jp_img3" src="./assets/photo/lasagne__alla__bolognese.png" alt="lasagne">
-                <p>Des couches de pâte fraîche, un ragù longuement mijoté, une béchamel onctueuse et du parmesan doré… le plat familial par excellence, comme Nonna le servait le dimanche.</p>
+                <p>Des couches de pâte fraîche, un ragù longuement mijoté, une béchamel onctueuse et du parmesan doré…
+                    le plat familial par excellence, comme Nonna le servait le dimanche.</p>
             </div>
-        
+
             <div class="jp_color1">
                 <h3>Pizza Margherita</h3>
                 <img class="jp_img2 jp_img3" src="./assets/photo/pizza__margherita.png" alt="pizza">
-                <p>Pâte fine maison, sauce tomate parfumée, mozzarella fondante et basilic frais. Simple, belle, délicieuse — la reine des pizzas napolitaines.</p>
+                <p>Pâte fine maison, sauce tomate parfumée, mozzarella fondante et basilic frais. Simple, belle,
+                    délicieuse — la reine des pizzas napolitaines.</p>
             </div>
 
             <div class="jp_color1">
                 <h3>Spaghetti alla Carbonara</h3>
                 <img class="jp_img3" src="./assets/photo/spaghetti__alla__carbonara.jpg" alt="spaguetti">
-                <p>Pas de crème ici ! Juste des œufs, du pecorino, du poivre et du guanciale croustillant. Une recette romaine authentique, prête en quelques minutes mais pleine de caractère.</p>
+                <p>Pas de crème ici ! Juste des œufs, du pecorino, du poivre et du guanciale croustillant. Une recette
+                    romaine authentique, prête en quelques minutes mais pleine de caractère.</p>
             </div>
 
             <div class="jp_color1">
                 <h3>Risotto ai Funghi</h3>
                 <img class="jp_img2 jp_img3" src="./assets/photo/risotto__ai__funghi.jpg" alt="risotto">
-                <p>Un risotto crémeux aux champignons de saison, relevé avec du parmesan et une touche de vin blanc. Parfait pour les soirées fraîches avec un bon verre de vin</p>
+                <p>Un risotto crémeux aux champignons de saison, relevé avec du parmesan et une touche de vin blanc.
+                    Parfait pour les soirées fraîches avec un bon verre de vin</p>
             </div>
 
             <div class="jp_color1">
                 <h3>Polpette al Sugo</h3>
                 <img class="jp_img3" src="./assets/photo/polpette__al__sugo.png" alt="polpette">
-                <p>Boulettes moelleuses à base de viande, mijotées dans une sauce tomate parfumée. Servies avec des pâtes ou du pain… elles font fondre petits et grands.</p>
+                <p>Boulettes moelleuses à base de viande, mijotées dans une sauce tomate parfumée. Servies avec des
+                    pâtes ou du pain… elles font fondre petits et grands.</p>
             </div>
 
             <div class="jp_color1">
                 <h3>Osso buco alla milanese</h3>
                 <img class="jp_img3" src="./assets/photo/osso__buco__alla__milanese.png" alt="osso">
-                <p>Jarret de veau mijoté longuement avec vin blanc, bouillon, légumes, souvent accompagné de gremolata (zeste de citron, ail et persil).</p>
+                <p>Jarret de veau mijoté longuement avec vin blanc, bouillon, légumes, souvent accompagné de gremolata
+                    (zeste de citron, ail et persil).</p>
             </div>
 
             <div class="jp_color1">
                 <h3>Scaloppine al Limone</h3>
                 <img class="jp_img2 jp_img3" src="./assets/photo/scaloppine__al__limone.jpg" alt="scaloppine">
-                <p>De fines tranches de veau nappées d’une sauce citronnée légère et parfumée. Un plat rapide et raffiné, souvent accompagné de légumes ou de purée.</p>
+                <p>De fines tranches de veau nappées d’une sauce citronnée légère et parfumée. Un plat rapide et
+                    raffiné, souvent accompagné de légumes ou de purée.</p>
             </div>
 
             <div class="jp_color1">
                 <h3>Tiramisù Classico</h3>
                 <img class="jp_img3" src="./assets/photo/tiramisu__classico.jpg" alt="tiramisu">
-                <p>Le dessert italien incontournable : biscuits imbibés de café, crème mascarpone, cacao amer… une douceur aérienne à chaque bouchée, impossible d’y résister</p>
+                <p>Le dessert italien incontournable : biscuits imbibés de café, crème mascarpone, cacao amer… une
+                    douceur aérienne à chaque bouchée, impossible d’y résister</p>
             </div>
-        </section> 
+        </section>
 
-            <section class="jp_container jp_container2">
+        <section class="jp_container jp_container2">
 
-             <div>
+            <div>
                 <hr>
                 <h3 class="jp_top" id="présentation">Présentation</h3>
                 <p>La cucina della nonna est née d'un souvenir : celui d’une cuisine italienne où régnait l’odeur du basilic, du ragù mijoté et des gâteaux sortis du four. Chaque dimanche, Nonna Maria régalait toute la famille avec ses plats simples, faits avec amour et transmis par le cœur, jamais par écrit.
-                    Pour ne pas laisser ces trésors se perdre, ses petits-enfants ont créé ce site, une sorte de carnet vivant, pour partager avec le monde ces recettes d’antan, pleines de chaleur, d’histoire et de tradition. Ici, pas de cuisine compliquée : seulement de vrais plats italiens, comme à la maison, comme chez Nonna.
-                    Parce qu’au fond, cuisiner, c’est transmettre — et comme disait toujours Nonna :
-                    “L’amour, ça se met dans la sauce.”</p>
-             </div>
-           </section>
+                <p>Pour ne pas laisser ces trésors se perdre, ses petits-enfants ont créé ce site, une sorte de carnet vivant, pour partager avec le monde ces recettes d’antan, pleines de chaleur, d’histoire et de tradition. Ici, pas de cuisine compliquée : seulement de vrais plats italiens, comme à la maison, comme chez Nonna.
+                Parce qu’au fond, cuisiner, c’est transmettre — et comme disait toujours Nonna : “L’amour, ça se met dans la sauce.”</p>   
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -166,7 +175,8 @@
                     <a class="areseaux" href="https://www.facebook.com/?locale=fr_FR" target="_blank">
                         <img class="logofacebook" src="./assets/photo/icone facebook.png" alt="logofacebook" />
                     </a>
-                    <a class="areseaux" href="https://www.instagram.com/la__cucina__della__nonna/?hl=fr" target="_blank">
+                    <a class="areseaux" href="https://www.instagram.com/la__cucina__della__nonna/?hl=fr"
+                        target="_blank">
                         <img class="logoinsta" src="./assets/photo/icone instagram.png" alt="logoinsta" />
                     </a>
                     <a class="areseaux" href="https://www.youtube.com/" target="_blank">
@@ -183,10 +193,10 @@
                 <a class="afooter" href="#mentionlegale">Mention légale</a>
             </li>
             <li class="lifooter">
-                <a class="afooter" href="#conditiongenerales">Condition générales</a>
+                <a class="afooter" href="#conditiongenerales">Conditions générales</a>
             </li>
             <li class="lifooter">
-                <a class="afooter" href="#Politiquedeconfidentialite">Politique de cinfidentialité</a>
+                <a class="afooter" href="#Politiquedeconfidentialite">Politique de confidentialité</a>
             </li>
             <li class="lifooter">
                 <a class="afooter" href="#Modifiermesparamètresdeconfidentialite">Modifier les paramètres de
@@ -197,4 +207,5 @@
     </footer>
 
 </body>
+
 </html>
