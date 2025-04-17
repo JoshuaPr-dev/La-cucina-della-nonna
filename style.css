@@ -162,6 +162,11 @@ main img {
   border-radius: 20%;
 }
 
+.jp_page {
+    color: black;
+    text-decoration: none;
+}
+
 .jp_top {
   margin-top: 2%;
 }
