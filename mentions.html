@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentions Légales</title>
+    <link rel="stylesheet" href="./mentions.css" />
+  </head>
+
+  <body>
+    <header id="Accueil">
+
+      <input type="checkbox" id="menu__toggle" hidden />
+      <label for="menu__toggle" class="burger">
+        <svg
+          width="60"
+          height="20"
+          viewBox="0 0 60 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="10" cy="10" r="4" />
+          <circle cx="30" cy="10" r="4" />
+          <circle cx="50" cy="10" r="4" />
+        </svg>
+      </label>
+
+      <nav class="mobile__menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Connexion</a></li>
+            <li><a href="#">Inscription</a></li>
+          </ul>
+      </nav>
+
+      <div class="relative">
+        <img
+          class="background__drapeau"
+          src="./assets/photo/background__drapeau.jpg"
+          alt="Fond drapeau italien"
+        />
+        <a href="#Accueil"
+          ><img
+            class="logo"
+            src="./assets/photo/logo.png"
+            alt="Logo de La Cucina Della Nonna"
+        /></a>
+      </div>
+      
+    </header>
+
+    <main>
+      <nav class="navbar__sticky">
+        <ul class="navbar">
+          <li><a class="navigation" href="index.html">Accueil</a></li>
+          <li><a class="navigation" href="#">Connexion</a></li>
+          <li><a class="navigation" href="#">Inscription</a></li>
+        </ul>
+      </nav>
+
+      <section class="mentions-legales">
+        <h2>Mentions Légales</h2>
+      
+        <h3>1. Éditeur du site</h3>
+        <p>
+          Le site <strong>La Cucina Della Nonna</strong> est un site personnel à but non commercial.
+          Il est édité par [Nom Prénom], domicilié à [adresse à compléter ou mention "Adresse disponible sur demande"].
+        </p>
+      
+        <h3>2. Hébergement</h3>
+        <p>
+          Le site est hébergé par :<br>
+          <strong>[Nom de l’hébergeur]</strong><br>
+          [Adresse complète de l’hébergeur]<br>
+          [Site web de l’hébergeur]
+        </p>
+      
+        <h3>3. Propriété intellectuelle</h3>
+        <p>
+          Tous les contenus présents sur le site (textes, images, logos, recettes, etc.) sont la propriété de <strong>La Cucina Della Nonna</strong>, sauf mention contraire explicite.
+          Toute reproduction, représentation, modification ou diffusion, même partielle, est interdite sans autorisation préalable.
+        </p>
+      
+        <h3>4. Données personnelles</h3>
+        <p>
+          Les données collectées via les formulaires de contact et d’inscription à la newsletter sont utilisées uniquement pour répondre aux demandes ou envoyer des actualités.
+          Elles ne sont ni vendues, ni cédées à des tiers.
+        </p>
+        <p>
+          Conformément au RGPD, vous disposez d’un droit d’accès, de rectification et de suppression de vos données.
+          Pour exercer ce droit, écrivez à : <a href="mailto:contact@lacucinadellanonna.fr">contact@lacucinadellanonna.fr</a>
+        </p>
+      
+        <h3>5. Cookies</h3>
+        <p>
+          Ce site peut utiliser des cookies pour améliorer l’expérience utilisateur et produire des statistiques anonymes de fréquentation.
+          Vous pouvez configurer votre navigateur pour refuser les cookies.
+        </p>
+      
+        <h3>6. Responsabilité</h3>
+        <p>
+          L’éditeur décline toute responsabilité quant à l’utilisation faite des recettes ou informations présentes sur le site.
+          L’utilisateur reste seul responsable de la bonne exécution des recettes et de l’utilisation des conseils proposés.
+        </p>
+      
+        <p class="maj">
+          Dernière mise à jour : avril 2025
+        </p>
+      </section>
+      
+
+    </main>
+      
+    <footer>
+      <div class="contactandnewsletter">
+        <div class="contact" id="contact">
+          <h2 class="h2footer">Contact</h2>
+          <input
+            class="inputfooter1"
+            type="text"
+            placeholder="Nom et prénom"
+            name="nameandnickname"
+            id="name"
+            required
+          />
+          <input
+            class="inputfooter2"
+            type="text"
+            placeholder="Email"
+            name="Email"
+            id="Email"
+            required
+          />
+          <input
+            class="inputfooter3"
+            type="text"
+            placeholder="Tapez votre message ici..."
+            name="message"
+            id="message"
+            required
+          />
+          <input class="boutonenvoyer" type="button" value="Envoyez" />
+        </div>
+        <hr class="hrfooter" />
+        <div class="newsletter">
+          <h2 class="h2footer">Inscrivez-vous à notre Newsletter.</h2>
+          <div class="boutonnewsletter">
+            <input
+              class="inputfooter4"
+              type="text"
+              placeholder="Votre e-mail"
+              name="email"
+              id="email"
+              required
+            />
+            <input class="boutoninscrire" type="button" value="S'inscrire" />
+          </div>
+          <div class="reseaux">
+            <a
+              class="areseaux"
+              href="https://www.facebook.com/?locale=fr_FR"
+              target="_blank"
+            >
+              <img
+                class="logofacebook"
+                src="./assets/photo/icone facebook.png"
+                alt="logofacebook"
+              />
+            </a>
+            <a
+              class="areseaux"
+              href="https://www.instagram.com/la__cucina__della__nonna/?hl=fr"
+              target="_blank"
+            >
+              <img
+                class="logoinsta"
+                src="./assets/photo/icone instagram.png"
+                alt="logoinsta"
+              />
+            </a>
+            <a class="areseaux" href="https://www.youtube.com/" target="_blank">
+              <img
+                class="logoyt"
+                src="./assets/photo/icone yt.png"
+                alt="logoyt"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <ul class="ulfooter">
+        <li class="lifooter">
+          <a class="afooter" href="#adresse">Adresse</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#mentionlegale">Mentions légales</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#conditiongenerales">Conditions générales</a>
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#Politiquedeconfidentialite"
+            >Politique de confidentialité</a
+          >
+        </li>
+        <li class="lifooter">
+          <a class="afooter" href="#Modifiermesparamètresdeconfidentialite">Modifier les paramètres de confidentialité</a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; 2025 La cucina della nonna</p>
+    </footer>
+  </body>
+</html>
