@@ -20,12 +20,12 @@
 
         <nav class="mobile__menu">
             <ul>
-              <li><a href="#Accueil">Accueil</a></li>
+              <li><a href="#Recettedelasemaine">Recette de la semaine</a></li>
+              <li><a href="#toprecettes">Top Recettes</a></li>
+              <li><a href="#présentation">Présentation</a></li>
+              <li><a href="#">Contact</a></li>
               <li><a href="#">Connexion</a></li>
               <li><a href="#">Inscription</a></li>
-              <li><a href="#">Top Recettes</a></li>
-              <li><a href="#">Toutes les Recettes</a></li>
-              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
 
@@ -47,16 +47,17 @@
     <main>
         <nav class="navbar__sticky">
             <ul class="navbar">
-                <li><a class="navigation" href="#">Recette de la semaine</a></li>
-                <li><a class="navigation" href="#">Top recettes</a></li>
-                <li><a class="navigation" href="#">Toutes nos recettes traditionnelles</a></li>
+                <li><a class="navigation" href="#recettedelasemaine">Recette de la semaine</a></li>
+                <li><a class="navigation" href="#toprecettes">Top recettes</a></li>
+                <li><a class="navigation" href="#présentation">Présentation</a></li>
+                <li><a class="navigation" href="#contact">Contact</a></li>
                 <li><a class="navigation" href="#">Connexion</a></li>
                 <li><a class="navigation" href="#">Inscription</a></li>
             </ul>
         </nav>
       <section>
             <div class="jp_color ">
-                <h2>LA RECETTE DE LA SEMAINE</h2>
+                <h2 id="recettedelasemaine">LA RECETTE DE LA SEMAINE</h2>
                 <div class="jp_cardeTopRecette">
                     <h3 class="jp_row1">Melanzane alla Parmigiana (Gratin d’aubergines à l’italienne)</h3>
                         <div class="jp_aligne jp_row2 jp_img3">
@@ -72,7 +73,7 @@
         </section>
 
         <section>
-            <h2 class="jp_top">TOP RECETTES</h2>
+            <h2 class="jp_top" id="toprecettes">TOP RECETTES</h2>
         </section>
         
 
@@ -131,7 +132,7 @@
 
              <div>
                 <hr>
-                <h3 class="jp_top">Présentation</h3>
+                <h3 class="jp_top" id="présentation">Présentation</h3>
                 <p>La cucina della nonna est née d'un souvenir : celui d’une cuisine italienne où régnait l’odeur du basilic, du ragù mijoté et des gâteaux sortis du four. Chaque dimanche, Nonna Maria régalait toute la famille avec ses plats simples, faits avec amour et transmis par le cœur, jamais par écrit.
                     Pour ne pas laisser ces trésors se perdre, ses petits-enfants ont créé ce site, une sorte de carnet vivant, pour partager avec le monde ces recettes d’antan, pleines de chaleur, d’histoire et de tradition. Ici, pas de cuisine compliquée : seulement de vrais plats italiens, comme à la maison, comme chez Nonna.
                     Parce qu’au fond, cuisiner, c’est transmettre — et comme disait toujours Nonna :
@@ -142,7 +143,7 @@
 
     <footer>
         <div class="contactandnewsletter">
-            <div class="contact">
+            <div class="contact" id="contact">
                 <h2 class="h2footer">Contact</h2>
                 <input class="inputfooter1" type="text" placeholder="Nom et prénom" name="nameandnickname" id="name"
                     required />
