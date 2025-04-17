@@ -183,6 +183,10 @@ main img {
   height: 90%;
 }
 
+.jp_color{
+  padding-top: 0.5rem;
+}
+
 .jp_color1 {
     background-color: var(--couleur--fond--de--cartes--UI);
     margin: 1rem;
@@ -399,6 +403,7 @@ footer {
   object-fit: contain;
   display: inline-block;
 }
+
 .areseaux {
   width: 33%;
 }
@@ -406,6 +411,7 @@ footer {
 @media (min-width: 601px) {
       .logo{
         width: 7rem;}
+        
     .navbar{
         display: flex;
         list-style: none;
@@ -661,7 +667,7 @@ footer {
   .jp_color {
     width: 80%;
     margin: auto;
-    margin-block: 5%;
+    margin-bottom: 2rem;
   }
 
   .contactandnewsletter {
