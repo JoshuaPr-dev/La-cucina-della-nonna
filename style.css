@@ -168,17 +168,12 @@ main img {
 }
 
 .jp_top {
-  margin-top: 2%;
-}
-
-.jp_top {
     margin-top: 1%;
     margin-bottom: 1%;
     
 }
 
 .jp_color {
-  background-color: var(--couleur--fond--de--cartes--UI);
   margin: 1rem;
   border-radius: 30px;
   display: flex;
@@ -187,9 +182,11 @@ main img {
   text-align: center;
   height: 90%;
 }
+.jp_coloBackground {
+    background-color: var(--couleur--fond--de--cartes--UI);
+  }
 
 .jp_color1 {
-    background-color: var(--couleur--fond--de--cartes--UI);
     margin: 1rem;
     border-radius: 30px;
     display: flex;
@@ -210,6 +207,7 @@ main img {
 .jp_img {
   width: 80%;
   height: 80%;
+  width: auto;
 }
 
 .jp_img2 {
@@ -443,6 +441,12 @@ footer {
 
     .burger {display: none;}
     .mobile__menu{display: none;}
+
+.jp_img {
+    width: 40%;
+    height: 40%;
+    width: auto;
+      }
 
 .jp_row2 { 
 
