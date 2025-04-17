@@ -88,7 +88,6 @@ header {
   display: none;
 }
 
-
 hr {
   height: 1px;
   background-color: black;
@@ -150,8 +149,8 @@ p {
   padding-bottom: 0.7rem;
 }
 
-.j__section2__div1 h4{
-    padding-left:  0.5rem;
+.j__section2__div1 h4 {
+  padding-left: 0.5rem;
 }
 
 .j__section3__div1,
@@ -727,4 +726,21 @@ footer {
 }
 
 /* Changer la taille du texte pc 1024< (1400px) */
+@media screen and (min-width: 1400px) {
+  .j__section1 .j__h2__1,
+  .j__h2__2 {
+    font-size: 3rem;
+  }
 
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
