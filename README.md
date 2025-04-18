@@ -56,5 +56,4 @@ Ajouter des filtres (temps de cuisson, type de plat, régime alimentaire).
 
 Intégrer une section de commentaires utilisateurs pour partager des astuces ou variantes de recettes.
 
-Si tu veux, je peux aussi te le mettre en page avec un petit style sympa pour une présentation ou un portfolio. Tu veux que je te fasse ça ?
 

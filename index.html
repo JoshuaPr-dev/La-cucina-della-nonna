@@ -23,16 +23,14 @@
         </svg>
       </label>
 
-      <nav class="mobile__menu">
+      <div class="mobile__menu">
         <ul>
-          <li>
-            <a class="navigation" href="./page2.html">Recette melanzane</a>
-          </li>
+          <li><a class="navigation" href="./page2.html">Recette melanzane</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#">Connexion</a></li>
           <li><a href="#">Inscription</a></li>
         </ul>
-      </nav>
+      </div>
 
       <div class="relative">
         <img
@@ -48,7 +46,21 @@
         /></a>
       </div>
 
-      <div class="recherche">
+        <nav class="navbar__sticky">
+            <ul class="navbar">
+                <li><a class="navigation" href="#recettedelasemaine">Recette de la semaine</a></li>
+                <li><a class="navigation" href="#toprecettes">Top recettes</a></li>
+                <li><a class="navigation" href="#présentation">Présentation</a></li>
+                <li><a class="navigation" href="#contact">Contact</a></li>
+                <li><a class="navigation" href="#">Connexion</a></li>
+                <li><a class="navigation" href="#">Inscription</a></li>
+            </ul>
+        </nav>
+      
+    </header>
+
+    <main>
+       <!-- <div class="recherche">
         <form action="/rechercher" method="get">
           <button type="submit">Rechercher</button>
           <input
@@ -64,20 +76,7 @@
           dans les casseroles de Nonna.”
         </p>
       </div>
-      <div class="recherche__spacer"></div>
-    </header>
-
-    <main>
-        <nav class="navbar__sticky">
-            <ul class="navbar">
-                <li><a class="navigation" href="#recettedelasemaine">Recette de la semaine</a></li>
-                <li><a class="navigation" href="#toprecettes">Top recettes</a></li>
-                <li><a class="navigation" href="#présentation">Présentation</a></li>
-                <li><a class="navigation" href="#contact">Contact</a></li>
-                <li><a class="navigation" href="#">Connexion</a></li>
-                <li><a class="navigation" href="#">Inscription</a></li>
-            </ul>
-        </nav>
+      <div class="recherche__spacer"></div> -->
         <section>
 
             <a class="jp_page" href ="./page2.html">
@@ -159,43 +158,6 @@
             </div>
         </section>
         <div class="jp_color1">
-          <h3>Osso buco alla milanese</h3>
-          <img
-            class="jp_img3"
-            src="./assets/photo/osso__buco__alla__milanese.png"
-            alt="osso"
-          />
-          <p>
-            Jarret de veau mijoté longuement avec vin blanc, bouillon, légumes,
-            souvent accompagné de gremolata (zeste de citron, ail et persil).
-          </p>
-        </div>
-
-        <div class="jp_color1">
-          <h3>Scaloppine al Limone</h3>
-          <img
-            class="jp_img2 jp_img3"
-            src="./assets/photo/scaloppine__al__limone.jpg"
-            alt="scaloppine"
-          />
-          <p>
-            De fines tranches de veau nappées d’une sauce citronnée légère et
-            parfumée. Un plat rapide et raffiné, souvent accompagné de légumes
-            ou de purée.
-          </p>
-        </div>
-
-        <div class="jp_color1">
-          <h3>Tiramisù Classico</h3>
-          <img
-            class="jp_img3"
-            src="./assets/photo/tiramisu__classico.jpg"
-            alt="tiramisu"
-          />
-          <p>
-            Le dessert italien incontournable : biscuits imbibés de café, crème
-            mascarpone, cacao amer… une douceur aérienne à chaque bouchée,
-            impossible d’y résister
           </p>
         </div>
       </section>
@@ -228,7 +190,7 @@
       <div class="contactandnewsletter">
         <div class="contact" id="contact">
           <h2 class="h2footer">Contact</h2>
-          <form class="form" action="#" method="POST"></form>
+          <form class="form" action="#" method="POST">
             <input
               class="inputfooter1"
               type="text"

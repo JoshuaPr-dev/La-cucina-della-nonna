@@ -11,8 +11,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
-  
+  /* scroll-behavior: smooth; */
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
@@ -80,6 +79,7 @@ header {
 
 .logo {
   width: 5rem;
+  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -430,18 +430,16 @@ footer {
         display: flex;
         list-style: none;
         justify-content: center;
-        align-items: center;
+          gap: 1rem;
+        padding: 0.25rem 0.5rem;
         text-align: center;
-        gap: 1rem;
-        padding: 0.8rem 0;
     }
 
     .navbar__sticky{
         position: sticky;
         top: 0;
-        z-index: 1000;
+        z-index: 9999;
         background-color: white;
-
     }
 
     .navigation{
@@ -513,6 +511,7 @@ footer {
     width: 25rem;
     padding-block: 0.8rem;
     font-size: 1.2rem;
+    height: 3.5rem;
   }
 
   .boutonenvoyer {
@@ -581,7 +580,7 @@ footer {
         transform: translateX(-50%);
     }
     
-    .navbar{
+    /* .navbar{
         display: flex;
         list-style: none;
         justify-content: center;
@@ -589,8 +588,8 @@ footer {
         text-align: center;
         font-size: large;
         gap: 5rem;
-        padding: 0.8rem 0;
-    }
+        padding: 0.8rem 05;
+    } */
 
     .navigation{
         color: var(--couleur--texte--footer);
