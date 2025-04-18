@@ -45,38 +45,35 @@
             alt="Logo de La Cucina Della Nonna"
         /></a>
       </div>
-
-        <nav class="navbar__sticky">
-            <ul class="navbar">
-                <li><a class="navigation" href="#recettedelasemaine">Recette de la semaine</a></li>
-                <li><a class="navigation" href="#toprecettes">Top recettes</a></li>
-                <li><a class="navigation" href="#présentation">Présentation</a></li>
-                <li><a class="navigation" href="#contact">Contact</a></li>
-                <li><a class="navigation" href="#">Connexion</a></li>
-                <li><a class="navigation" href="#">Inscription</a></li>
-            </ul>
-        </nav>
-      
     </header>
 
     <main>
+      <nav class="navbar__sticky">
+        <ul class="navbar">
+            <li><a class="navigation" href="#recettedelasemaine">Recette de la semaine</a></li>
+            <li><a class="navigation" href="#toprecettes">Top recettes</a></li>
+            <li><a class="navigation" href="#présentation">Présentation</a></li>
+            <li><a class="navigation" href="#contact">Contact</a></li>
+            <li><a class="navigation" href="#">Connexion</a></li>
+            <li><a class="navigation" href="#">Inscription</a></li>
+        </ul>
+    </nav>
+
        <div class="recherche">
-        <form action="/rechercher" method="get">
-          <button type="submit">Rechercher</button>
-          <input
-            type="search"
+        <form action="/rechercher" method="POST">
+          <input class="" type="submit" value="Recherche" />
+          <textarea
+            class="search__field"
             id="site-search"
             name="q"
-            class="search__field"
-            placeholder="Tapez votre recherche..."
-          />
+          ></textarea>
         </form>
-        <p>
-          -“La vraie cuisine italienne, celle qui mijote depuis des générations
-          dans les casseroles de Nonna.”
-        </p>
       </div>
       <div class="recherche__spacer"></div>
+      <h2 class="m__h2">
+        “La vraie cuisine italienne, celle qui mijote depuis des générations
+        dans les casseroles de Nonna.”
+      </h2>
         <section>
 
             <a class="jp_page" href ="./page2.html">
@@ -95,7 +92,7 @@
 
             <hr>
         </section>
-
+      
         <section>
             <h2 class="jp_top" id="toprecettes">TOP RECETTES</h2>
         </section>
