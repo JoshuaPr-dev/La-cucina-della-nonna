@@ -1,1 +1,4 @@
-Faire footer page 1 comme page recette
+Header:
+ ⚠️Gérer la nav (Inscription coller a droite) / Gérer le responsive /Positionnement
+
+
