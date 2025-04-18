@@ -13,6 +13,7 @@
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -170,7 +171,7 @@ p {
   padding-bottom: 2rem;
 }
 
-.__section3__div5 {
+.j__section3__div5 {
   padding: 1.5rem 0;
   text-align: center;
 }
@@ -190,6 +191,11 @@ footer {
   margin-block: 2%;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -205,7 +211,7 @@ footer {
 
 .contact input {
   text-align: center;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   border-radius: 2rem;
 }
 
@@ -262,7 +268,7 @@ footer {
   background-color: var(--couleur--boutons--actions);
   color: var(--couleur--fond--de--cartes--UI);
   width: 12rem;
-  margin: auto;
+  margin: 0.4rem auto;
   padding-block: 0.7rem;
 }
 
@@ -280,23 +286,30 @@ footer {
 
 .inputfooter2 {
   width: 12rem;
-  margin: auto;
+  margin: 0.4rem auto;
   padding-block: 0.7rem;
 }
 
 .inputfooter3 {
   width: 20rem;
   margin: auto;
-  padding-block: 0.7rem;
+  padding: 0.7rem;
+  height: 2.5rem;    
+  resize: none;         
+  box-sizing: border-box; 
+  border-radius: 12rem;
+  text-align: center;
 }
 
 .inputfooter4 {
   padding-block: 0.7rem;
+  padding-left: 0.7rem;
   border-radius: 2rem;
-  text-align: center;
+  text-align: start;
   position: relative;
   right: 8%;
   width: 16rem;
+  font-size: 0.8rem;
 }
 
 .reseaux {
@@ -468,6 +481,7 @@ footer {
     width: 25rem;
     padding-block: 0.8rem;
     font-size: 1.2rem;
+    height: 3.5rem;
   }
 
   .boutonenvoyer {
@@ -481,7 +495,7 @@ footer {
     padding-block: 0.8rem;
     position: relative;
     right: 5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .boutoninscrire {
@@ -661,7 +675,6 @@ footer {
   .inputfooter4 {
     padding-block: 0.7rem;
     border-radius: 2rem;
-    text-align: center;
     position: relative;
     right: 8%;
     width: 22rem;
