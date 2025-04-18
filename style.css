@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
@@ -99,11 +99,6 @@ header {
   position: absolute;
 }
 
-.recherche p {
-  padding: 8.5rem 0 0 0;
-  text-align: center;
-  font-style: italic;
-}
 
 .recherche form {
   position: relative;
@@ -116,14 +111,15 @@ header {
 }
 
 .search__field {
-  padding: 0.3rem;
-  border-radius: 0 0.3rem 0.3rem 0;
+  width: 60%;
+  height: 2.35rem;
   border: none;
+  border-radius: 0 0.3rem 0.3rem 0;
 }
 
-.recherche button {
+.recherche input {
   background-color: var(--couleur--boutons--actions);
-  padding: 0.3rem;
+  padding: 0.7rem 1rem;
   border-radius: 0.3rem 0 0 0.3rem;
   color: white;
   margin-left: -4px;
@@ -131,7 +127,13 @@ header {
 }
 
 .recherche__spacer {
-    height: 27vh; /* doit être exactement égal à .recherche */
+    height: 27vh; 
+}
+
+.m__h2{
+  text-align: center;
+  font-style: italic ;
+  font-size: 0.85rem;
 }
 
 h2 {
@@ -429,8 +431,8 @@ footer {
     .navbar{
         display: flex;
         list-style: none;
-        justify-content: center;
-          gap: 1rem;
+        justify-content: space-around;
+        gap: 1rem;
         padding: 0.25rem 0.5rem;
         text-align: center;
     }
@@ -445,17 +447,28 @@ footer {
     .navigation{
         color: var(--couleur--texte--footer);
     }
+
     .recherche form{
         top: 40%;
         left: 55%;
         transform: translateX(-50%);
     }
+
     .recherche__spacer {
-        height: 30vh;
+        height: 27vh;
     }
 
-    .burger {display: none;}
-    .mobile__menu{display: none;}
+    .m__h2{
+      font-size: 1.15rem;
+    }
+
+    .burger {
+      display: none;
+    }
+    
+    .mobile__menu{
+      display: none;
+    }
 
 .jp_img {
     width: 40%;
@@ -580,16 +593,11 @@ footer {
         transform: translateX(-50%);
     }
     
-    /* .navbar{
-        display: flex;
-        list-style: none;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: large;
-        gap: 5rem;
-        padding: 0.8rem 05;
-    } */
+    .navbar{
+        font-size: 1.6rem;
+        gap: 1.7rem;
+        padding: 0.25rem 0.5rem;
+    }
 
     .navigation{
         color: var(--couleur--texte--footer);
@@ -598,7 +606,7 @@ footer {
     .recherche {
         background-image: url("./assets/photo/background__recherche.png");
         background-size: cover;
-        height: 45vh;
+        height: 48vh;
         width: 100%;
         margin-top: 1rem;
         position: absolute;
@@ -622,17 +630,13 @@ footer {
         min-width: 250px;
     }
   
-    .recherche button {
+    .recherche input {
         background-color: var(--couleur--boutons--actions);
-        padding: 1rem;
+        padding: 1.5rem;
         border-radius: 0.3rem 0 0 0.3rem;
         color: white;
         margin-left: -4px;
         border: none;
-        font-size: large;
-    }
-
-    .recherche input {
         font-size: large;
     }
 
@@ -642,8 +646,14 @@ footer {
         font-style: italic;
         font-size: x-large;
     }
+
     .recherche__spacer {
-        height: 50vh; /* doit être exactement égal à .recherche */
+        height: 27vh; 
+    }
+
+    .m__h2{
+      font-size: 1.8rem;
+      padding-top: 14rem;
     }
   
 .jp_container {
@@ -686,7 +696,7 @@ footer {
   .jp_color {
     width: 80%;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-block: 2rem;
   }
 
   .contactandnewsletter {
