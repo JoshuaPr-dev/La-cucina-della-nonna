@@ -1,4 +1,3 @@
-
 :root {
   --couleur--background: #fffdf7;
   --couleur--texte--footer: #2e2e3a;
@@ -14,7 +13,6 @@
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 header {
@@ -81,7 +79,6 @@ header {
 
 .logo {
   width: 5rem;
-  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -92,96 +89,19 @@ header {
   display: none;
 }
 
-hr {
-  height: 1px;
-  background-color: black;
+.conditions-generales {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
 }
 
-h4 {
-  font-size: 0.95rem;
-  padding-bottom: 0.7rem;
-}
-
-p {
-  font-size: 0.9rem;
-  padding-left: 0.5rem;
-}
-
-.j__img1 {
-  padding-top: 0.5rem;
-  width: 100%;
-  height: auto;
-}
-
-.j__img2 {
-  display: none;
-}
-
-.j__section1 h2 {
+.conditions-generales h2, 
+.conditions-generales h3 {
   text-align: center;
-}
-
-/* section1 */
-.j__section1 .j__h2__1 {
-  padding-top: 0.5rem;
-}
-
-.j__section1 .j__h2__2 {
-  padding-bottom: 0.5rem;
-}
-
-.j__section2 .j__h2__3,
-.j__h2__4 {
-  padding-left: 0.5rem;
-}
-
-.j__section2 .j__h2__3 {
-  padding-top: 0.7rem;
-}
-
-.j__section2 .j__h2__4 {
-  padding-bottom: 0.7rem;
-}
-
-.section2__div1,
-.div2 {
-  padding: 1rem 0.5rem 0.5rem 0.5rem;
-}
-
-.j__section2__div1 h4,
-p {
-  padding-bottom: 0.7rem;
-}
-
-.j__section2__div1 h4 {
-  padding-left: 0.5rem;
-}
-
-.j__section3__div1,
-.j__div2,
-.j__div3,
-.j__div4 {
-  padding: 1rem 0.5rem 0.5rem 0.5rem;
-}
-
-.j__section3__div1 h2,
-p {
-  padding-bottom: 0.7rem;
-}
-
-.j__section3 .j__h2 {
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
-.j__section3__div5 {
-  padding: 1.5rem 0;
-  text-align: center;
-}
-
-.j__section3_div5 p {
-  font-style: italic;
-  padding: none;
+  margin-block: 1rem;
+  color: var(--couleur--texte--footer);
 }
 
 footer {
@@ -192,11 +112,6 @@ footer {
   color: var(--couleur--fond--de--cartes--UI);
   text-align: center;
   margin-block: 2%;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
 }
 
 .contact {
@@ -214,7 +129,7 @@ footer {
 
 .contact input {
   text-align: center;
-  /* margin-top: 2%; */
+  margin-top: 2%;
   border-radius: 2rem;
 }
 
@@ -271,7 +186,7 @@ footer {
   background-color: var(--couleur--boutons--actions);
   color: var(--couleur--fond--de--cartes--UI);
   width: 12rem;
-  margin: 0.4rem auto;
+  margin: auto;
   padding-block: 0.7rem;
 }
 
@@ -289,30 +204,23 @@ footer {
 
 .inputfooter2 {
   width: 12rem;
-  margin: 0.4rem auto;
+  margin: auto;
   padding-block: 0.7rem;
 }
 
 .inputfooter3 {
   width: 20rem;
   margin: auto;
-  padding: 0.7rem;
-  height: 2.5rem;    
-  resize: none;         
-  box-sizing: border-box; 
-  border-radius: 12rem;
-  text-align: center;
+  padding-block: 0.7rem;
 }
 
 .inputfooter4 {
   padding-block: 0.7rem;
-  padding-left: 0.7rem;
   border-radius: 2rem;
-  text-align: start;
+  text-align: center;
   position: relative;
   right: 8%;
   width: 16rem;
-  font-size: 0.8rem;
 }
 
 .reseaux {
@@ -373,90 +281,11 @@ footer {
     color: var(--couleur--texte--footer);
   }
 
-  .recherche form {
-    top: 40%;
-    left: 55%;
-    transform: translateX(-50%);
-  }
-
   .burger {
     display: none;
   }
 
   .mobile__menu {
-    display: none;
-  }
-
-  .j__section1 {
-    position: relative;
-  }
-
-  .j__img1 {
-    filter: blur(6px);
-    width: 100%;
-    height: 100%;
-  }
-
-  .j__blur {
-    color: white;
-    position: absolute;
-    top: 32%;
-    padding: auto;
-    width: 100%;
-    height: 25%;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    gap: 0.5rem;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-  }
-
-  .j__section1 .j__h2__1,
-  .j__h2__2 {
-    font-size: 1.3rem;
-    padding: 0;
-    margin-left: 1.5rem;
-  }
-
-  .j__img2 {
-    position: absolute;
-    top: 24%;
-    left: 51%;
-    display: block;
-    width: 45%;
-    height: auto;
-  }
-
-  .j__hr1 {
-    display: none;
-  }
-
-  .j__section2__div0 {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .j__section2 {
-    text-align: center;
-  }
-
-  .j__section2 .j__div2 {
-    padding-top: 0;
-  }
-
-  .j__section2 .j__h2__4 {
-    padding-bottom: 1.5rem;
-  }
-
-  .j__section3__div1,
-  .j__div2,
-  .j__div3,
-  .j__div4 {
-    text-align: center;
-  }
-
-  .j__section3__div1 .j__h2__1 {
     display: none;
   }
 
@@ -484,7 +313,6 @@ footer {
     width: 25rem;
     padding-block: 0.8rem;
     font-size: 1.2rem;
-    height: 3.5rem;
   }
 
   .boutonenvoyer {
@@ -498,7 +326,7 @@ footer {
     padding-block: 0.8rem;
     position: relative;
     right: 5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .boutoninscrire {
@@ -533,30 +361,6 @@ footer {
   }
 }
 
-/* Version Tablette */
-@media screen and (min-width: 699px) {
-  .j__section1 .j__h2__1,
-  .j__h2__2 {
-    font-size: 1.5rem;
-  }
-}
-
-/* Ajustement de la taille "Recette Melanzane alla Parmigiana" */
-@media screen and (min-width: 799px) {
-  .j__section1 .j__h2__1,
-  .j__h2__2 {
-    font-size: 1.7rem;
-  }
-}
-
-/* Ajustement de la taille "Recette Melanzane alla Parmigiana" */
-@media screen and (min-width: 899px) {
-  .j__section1 .j__h2__1,
-  .j__h2__2 {
-    font-size: 2rem;
-  }
-}
-
 /* Version PC */
 @media screen and (min-width: 1024px) {
   header {
@@ -585,78 +389,13 @@ footer {
     text-align: center;
     font-size: large;
     gap: 5rem;
-    padding: 0 0 1.2rem 0 ;
+    padding: 0.8rem 0;
   }
 
   .navigation {
     color: var(--couleur--texte--footer);
   }
-
-  .recherche {
-    background-image: url("./assets/photo/background__recherche.png");
-    background-size: cover;
-    height: 45vh;
-    width: 100%;
-    margin-top: 1rem;
-    position: absolute;
-  }
-
-  .recherche form {
-    position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-  }
-
-  .search__field {
-    padding: 1rem;
-    border-radius: 0 0.3rem 0.3rem 0;
-    border: none;
-    width: 40vw;
-    max-width: 600px;
-    min-width: 250px;
-  }
-
-  .recherche button {
-    background-color: var(--couleur--boutons--actions);
-    padding: 1rem;
-    border-radius: 0.3rem 0 0 0.3rem;
-    color: white;
-    margin-left: -4px;
-    border: none;
-    font-size: large;
-  }
-
-  .recherche input {
-    font-size: large;
-  }
-
-  .recherche p {
-    padding: 16rem 0 0 0;
-    text-align: center;
-    font-style: italic;
-    font-size: x-large;
-  }
-
-  .j__section1 .j__h2__1,
-  .j__h2__2 {
-    font-size: 2.3rem;
-  }
-
-  h2 {
-    font-size: 1.7rem;
-  }
-
-  h4 {
-    font-size: 1.25rem;
-  }
-
-  p {
-    font-size: 1.1rem;
-  }
-
+  
   .contactandnewsletter {
     display: flex;
     justify-content: space-around;
@@ -678,6 +417,7 @@ footer {
   .inputfooter4 {
     padding-block: 0.7rem;
     border-radius: 2rem;
+    text-align: center;
     position: relative;
     right: 8%;
     width: 22rem;
@@ -765,25 +505,5 @@ footer {
 
   .ulfooter {
     margin: 1rem;
-  }
-}
-
-/* Changer la taille du texte pc 1024< (1400px) */
-@media screen and (min-width: 1400px) {
-  .j__section1 .j__h2__1,
-  .j__h2__2 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h4 {
-    font-size: 1.7rem;
-  }
-
-  p {
-    font-size: 1.5rem;
   }
 }
