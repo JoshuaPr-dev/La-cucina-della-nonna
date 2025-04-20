@@ -1,3 +1,4 @@
+
 :root {
   --couleur--background: #fffdf7;
   --couleur--texte--footer: #2e2e3a;
@@ -29,6 +30,7 @@ header {
 
 .burger svg {
   fill: var(--couleur--background);
+  position: fixed;
 }
 
 .mobile__menu {
@@ -435,6 +437,7 @@ footer {
         gap: 1rem;
         padding: 0.25rem 0.5rem;
         text-align: center;
+        align-items: center;
     }
 
     .navbar__sticky{
@@ -594,7 +597,7 @@ footer {
     }
     
     .navbar{
-        font-size: 1.6rem;
+        font-size: large;
         gap: 1.7rem;
         padding: 0.25rem 0.5rem;
     }
