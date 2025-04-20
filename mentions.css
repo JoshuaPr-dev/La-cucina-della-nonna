@@ -27,7 +27,7 @@
   }
   
   .burger svg {
-    fill: var(--couleur--background);
+    fill: var(--couleur--hover--contrastes);
     position: fixed;
   }
   
