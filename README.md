@@ -1,41 +1,58 @@
 🍽️ La Cucina della Nonna – Projet Recettes de Cuisine
 🧾 Présentation du projet
-L'objectif principal était de pratiquer la structuration d’un projet web, la collaboration en groupe, l’intégration responsive ainsi que l’implémentation d’interactions utilisateur simples.
+L’objectif principal de ce projet était de pratiquer :
 
-Nous avons créé un Google Doc pour rassembler toutes nos idées avant de passer sur Figma.
+la structuration d’un projet web,la collaboration en groupe,
+l’intégration responsive,ainsi que l’implémentation d’interactions utilisateur simples.
 
-Nous avons ensuite commencé à créer la maquette du site sur Figma. Mehdi s’est occupé du header, Valentin et Jean-Paul se sont occupés du main et du footer, et Joshua a réalisé la page des recettes (page 2).
+🧠 Organisation
+Nous avons débuté par la création d’un Google Doc pour centraliser toutes nos idées, avant de passer à la conception de la maquette sur Figma :
 
-Joshua a créé le repository GitHub, puis Valentin a mis en place le Jira et a attribué les tâches.
+Mehdi : réalisation du header,
 
-Nous avons ensuite commencé le développement en HTML et CSS :
-– Le header a été réalisé par Mehdi
-– Le main par Jean-Paul
-– Le footer par Valentin
-– La page des recettes par Joshua
+Valentin et Jean-Paul : création du main et du footer,
 
-Les modifications ont été faites par tout le monde tout au long du projet.
+Joshua : conception de la page des recettes (page 2).
 
-Nous avons organisé des réunions chaque matin pour gérer les évolutions.
+Ensuite :
 
-Chacun a travaillé sur sa propre branche GitHub.
+Joshua a créé le repository GitHub,
+
+Valentin a mis en place Jira et a réparti les tâches.
+
+🧱 Développement HTML/CSS.
+
+Header : Mehdi
+
+Main : Jean-Paul.
+
+Footer : Valentin.
+
+Page des recettes : Joshua.
+
+Les modifications ont été réalisées par tous les membres tout au long du projet.
+Des réunions quotidiennes ont été tenues chaque matin pour suivre l’avancement.
+Chacun travaillait sur sa propre branche GitHub.
 
 👥 Répartition des tâches
-Header : Intégration du header, création du menu burger, menu sticky (versions mobile, tablette et PC), effets d’animation, gestion des ancres de navigation.
+🔹 Header
+Intégration du header,création du menu burger,menu sticky (versions mobile, tablette et PC),effets d’animation,gestion des ancres de navigation.
 
-Main : Intégration du contenu principal, effets d’animation (versions tablette et PC).
+🔹 Main
+Intégration du contenu principal,éffets d’animation (tablette et PC).
 
-Recettes : Création des fiches recettes, mise en page des cartes, responsive des sections.
+🔹 Recettes
+Création des fiches recettes,mise en page des cartes,responsive des sections,conception de la page 2 (ingrédients et étapes de recette).
 
-Création de la page 2 avec ingredient et recette.
+🔹 Footer
+Mise en place du footer,gestion des ancres de navigation,
+intégration des zones de texte pour les contacts,liens vers les réseaux sociaux (avec logos),bouton d’inscription au site.
 
-Footer : Mise en place du footer, gestion des ancres de navigation.
-Integration des zone de texte pour les contacts,lien vers les rezeaux sociaux avec logo,bouton d'inscription au site.
-
-Travail en équipe : Conception du design, choix des couleurs, rédaction des contenus (recettes), débogage, amélioration continue.
+🔹 Travail en équipe
+Conception du design,choix des couleurs,rédaction des contenus (recettes),débogage,amélioration continue.
 
 ⚠️ Difficultés rencontrées
-Communication : Au début, la répartition des tâches n’était pas très claire, ce qui a causé des ralentissements. Nous avons ensuite mis en place un tableau Trello pour mieux organiser le travail.
+Communication : Au début, la répartition des tâches n’était pas très claire, ce qui a causé des ralentissements. Nous avons ensuite mis en place un tableau jira pour mieux organiser le travail.
 
 Divergences d’opinions : Parfois difficiles à gérer.
 
@@ -54,4 +71,5 @@ Ajouter des filtres (temps de cuisson, type de plat, régime alimentaire).
 
 Intégrer une section de commentaires utilisateurs pour partager des astuces ou variantes de recettes.
 
-Si tu veux, je peux aussi te le mettre en page avec un petit style sympa pour une présentation ou un portfolio. Tu veux que je te fasse ça ?
+
+
